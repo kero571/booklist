@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MainCss.css">
+    <title>Book List</title>
+</head>
+<body>
+    <div class="parrent">
+        <h1>Add Book</h1>
+        <div id="look">
+            <div></div>
+        </div>
+        <form id="form">
+            <div>
+                <label>Book title<br></label>
+                <input type="text" required id="BookTitle">
+            </div> 
+            <div>
+                <label>Author<br></label>
+                <input type="text" required id="Author">
+            </div> 
+            <div>
+                <label>ISBN<br></label>
+                <input type="text" required id="iSBN">
+            </div> 
+            <input type="submit" id="sub">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="del"></tbody>
+        </table>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="MainJs.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.parrent{
+    position: relative;
+    border: 3px solid #b5adad;
+    position: relative;
+    margin: 50px auto;
+    width: 1000px;
+    height: auto;
+    box-shadow: 4px 3px 15px 1px grey;
+}
+#look{
+    width: 39px;
+    background-color: white;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    height: 14px;
+    border: 2px black solid;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+#look div:first-of-type{
+    background-color: black;
+    border: 2px black solid;
+    border-radius: 50%;
+    width: 11px;
+    transition-duration: 1s;
+    transform: translateX(25px);
+    height: 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(25px);
+    -moz-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    -o-transform: translateX(25px);
+}
+h1{
+    margin: 10px;
+}
+#form label{
+    margin: 10px 0 10px 10px;
+    font-weight: bold;
+}
+#form input{
+    margin: 10px;
+    width: 970px;
+    height: 20px;
+}
+#sub{
+    color: white;
+    margin: 10px auto;
+    width: 970px;
+    height: 40px;
+    cursor: pointer;
+    background-color: black;
+}
+table{
+    width: 800px;
+    text-align: center;
+}
